@@ -1,5 +1,4 @@
 
-%%writefile app.py
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -287,8 +286,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# Start the Streamlit app
-os.system('nohup streamlit run app.py &')
 
-#Run the Streamlit app in the background
-!streamlit run app.py &>/dev/null&
