@@ -1,4 +1,3 @@
-!pip install streamlit matplotlib plotly pandas numpy scipy ipywidgets
 
 %%writefile app.py
 import streamlit as st
