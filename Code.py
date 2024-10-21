@@ -1,3 +1,9 @@
+import streamlit as st
+import numpy as np
+import pandas as pd
+import plotly.graph_objs as go
+from scipy.optimize import minimize
+import matplotlib.pyplot as plt
 
 # Functions for Δp Calculation in CODE1
 def calculate_dp_code1(rho_mix, mu_mix, rho_cal, mu_cal, q, q_cal, a_tilde, z, y, x):
